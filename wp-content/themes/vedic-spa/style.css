@@ -1,0 +1,270 @@
+/*
+Theme Name: Vedic Spa
+Theme URI: https://blossomthemes.com/wordpress-themes/vedic-spa/
+Template: blossom-spa  
+Author: Blossom Themes
+Author URI: https://blossomthemes.com/
+Description: Vedic Spa is a clean and beautiful WordPress Theme focused on Spa and Salon business. You can use this theme to create a fully functional and professional website for your spa business without prior knowledge or experience of coding. This theme is best suited for businesses like spa, beauty salon, hair salon, wellness center, massage parlor, yoga studio, meditation classes, and natural health care or beauty businesses. The theme includes several sections such as Banner Section with CTA, About, Services, Testimonials, Team, Blog, several Call-to-Actions, and Instagram section to sell your services and introduce your business. This speed-optimized theme is easy to use, mobile-friendly, and SEO-friendly. It is also WooCommerce compatible, translation-ready, RTL script-ready and Schema friendly. Check theme details at https://blossomthemes.com/wordpress-themes/vedic-spa/, demo at https://blossomthemes.com/theme-demo/?theme=vedic-spa, documentation at https://docs.blossomthemes.com/vedic-spa/, and get support at https://blossomthemes.com/support-ticket/
+Version: 1.0.1
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tested up to: 6.0
+Requires PHP: 5.6
+Text Domain: vedic-spa
+Tags: blog,one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-header,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,photography,e-commerce
+*/
+
+/*============================
+variable
+============================*/
+
+:root {
+    --primary-color: #76a2a2;
+    --primary-color-rgb: 118,162,162;
+    --primary-font: 'DM Sans', sans-serif;
+    --secondary-font: 'DM Serif Display', serif;
+}
+
+/*============================
+HEADER LAYOUT TWO
+============================*/
+.header-two .nav-wrap {
+    position: static;
+    border-radius: 0;
+    padding: 0;
+}
+.header-two .header-t .container {
+    display: flex;
+    flex: 1;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-two .header-contact {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.header-two .header-contact .contact-block svg {
+    position: static;
+    width: 16px;
+    float: left;
+    margin-right: 7px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+}
+.header-two .header-social .social-list li {
+    font-size: 0.888em;
+}
+.header-two .header-social .social-list li a {
+    width: auto;
+    height: auto;
+    line-height: normal;
+    padding-left: 15px;
+    border-left: none;
+}
+.header-two .social-list{
+	margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header-two .header-contact .contact-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    justify-self: center;
+    padding-left: 0;
+    border-left: none;
+}
+.header-two .header-contact .contact-block .content {
+    line-height: 1.8;
+    color: #fff;
+    font-weight: 400;
+}
+.header-two .header-t {
+    background: rgba(var(--primary-color-rgb), 0.2);
+    padding: 10px 0;
+}
+.header-two .header-contact .contact-block svg path.phb,
+.header-two .header-contact .contact-block svg path.emb,
+.header-two .header-contact .contact-block svg path.clkb {
+    fill: #585656;
+}
+.header-two .header-social .social-list li a:hover {
+    color: var(--primary-color);
+}
+.header-two .header-contact .contact-block {
+    align-items: center;
+}
+
+.header-two .header-contact .contact-block svg {
+    width: 20px;
+    margin-top: 0;
+}
+
+.header-two .header-contact .contact-block .content {
+    font-size: 0.7778em;
+    font-weight: 600;
+    color: #585656;
+}
+
+.site-header.header-two .cart a {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    padding-right: 10px;
+    color: inherit;
+    position: relative;
+}
+.site-header.header-two .cart svg:hover path{
+	fill: var(--primary-color);
+}
+.site-header.header-two .header-social+.cart a {
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left-color: rgba(0, 0, 0, 0.1);
+}
+
+.site-header.header-two .cart a:hover {
+    background: none;
+    color: var(--primary-color);
+}
+.site-header .cart a .count {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    color: initial;
+    text-align: center;
+    line-height: 14px;
+    border-radius: 100%;
+    font-size: 0.6666em;
+    font-weight: 700;
+    border: 1px solid var(--primary-color);
+}
+
+.site-header.header-two .cart a .count {
+    top: 0;
+    right: 0;
+    border-color: rgba(0, 0, 0, 0.3);
+    background: #F0F0F0;
+}
+
+.header-two .nav-wrap {
+    position: static;
+    border-radius: 0;
+    padding: 0;
+}
+
+.header-two .nav-wrap .main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-two .nav-wrap .nav-right {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-two .main-navigation ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-two .main-navigation ul.nav-menu>li:last-child ul,
+.header-two .main-navigation ul.nav-menu>li:nth-last-of-type(2) ul,
+.header-two .main-navigation ul.nav-menu>li:nth-last-of-type(3) ul {
+    left: auto;
+    right: 0;
+}
+
+.header-two .main-navigation ul.nav-menu>li:last-child ul ul,
+.header-two .main-navigation ul.nav-menu>li:nth-last-of-type(2) ul ul,
+.header-two .main-navigation ul.nav-menu>li:nth-last-of-type(3) ul ul {
+    left: auto;
+    right: 100%;
+}
+
+.header-two .main-navigation ul li.menu-item-has-children {
+    padding-right: 5px;
+}
+
+.header-two .main-navigation ul ul li.menu-item-has-children {
+    padding-right: 0;
+}
+
+.header-two .main-navigation ul li a {
+    height: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header-two .main-navigation ul li span {
+    line-height: 60px;
+    top: 0;
+}
+
+.header-two .main-navigation ul li:hover>ul {
+    top: 100%;
+}
+
+.header-two .main-navigation ul ul li:hover>ul {
+    top: 0;
+}
+
+.header-two .main-navigation ul ul li {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.header-two .main-navigation ul ul li span {
+    line-height: 20px;
+    top: 20px;
+}
+
+.header-two .main-navigation ul li a:after {
+    top: auto;
+    bottom: 0;
+}
+
+.header-two .nav-right .header-search:hover {
+    background: none;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.header-two .header-search-wrap>svg {
+    height: 35px;
+    padding-left: 27px;
+    padding-right: 0;
+    fill: red;
+}
+.header-two .header-search-wrap .sea{
+	fill: #585656;
+}
+
+.header-two .header-search-wrap{
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+	margin-right: 15px;
+}
+
+@media only screen and (max-width:  1024px){
+	.header-two .header-t{
+		display: none;
+	}
+}
+

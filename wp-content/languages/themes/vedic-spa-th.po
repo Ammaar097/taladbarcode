@@ -1,0 +1,187 @@
+# Translation of Themes - Vedic Spa in Thai
+# This file is distributed under the same license as the Themes - Vedic Spa package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-07-16 08:33:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: th\n"
+"Project-Id-Version: Themes - Vedic Spa\n"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Vedic Spa"
+msgstr "Vedic Spa"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Vedic Spa is a clean and beautiful WordPress Theme focused on Spa and Salon business. You can use this theme to create a fully functional and professional website for your spa business without prior knowledge or experience of coding. This theme is best suited for businesses like spa, beauty salon, hair salon, wellness center, massage parlor, yoga studio, meditation classes, and natural health care or beauty businesses. The theme includes several sections such as Banner Section with CTA, About, Services, Testimonials, Team, Blog, several Call-to-Actions, and Instagram section to sell your services and introduce your business. This speed-optimized theme is easy to use, mobile-friendly, and SEO-friendly. It is also WooCommerce compatible, translation-ready, RTL script-ready and Schema friendly. Check theme details at https://blossomthemes.com/wordpress-themes/vedic-spa/, demo at https://blossomthemes.com/theme-demo/?theme=vedic-spa, documentation at https://docs.blossomthemes.com/vedic-spa/, and get support at https://blossomthemes.com/support-ticket/"
+msgstr "Vedic Spa เป็นธีม WordPress ที่สะอาดและงดงามที่เน้นธุรกิจสปาและร้านเสริมสวย คุณสามารถใช้ธีมนี้สร้างเว็บไซต์ที่มีความสมบูรณ์และมืออาชีพสำหรับธุรกิจสปาของคุณได้โดยไม่ต้องมีความรู้หรือประสบการณ์ในการเขียนโค้ด ธีมนี้เหมาะสำหรับธุรกิจเช่นสปา, ร้านเสริมสวย, ร้านทำผม, ศูนย์สุขภาพ, ร้านนวด, สตูดิโอโยคะ, คลาสการทำสมาธิ, และการดูแลสุขภาพธรรมชาติหรือธุรกิจที่เกี่ยวข้องกับความงาม ธีมนี้รวมหลายส่วนเช่น ส่วนแบนเนอร์พร้อม CTA, เกี่ยวกับ, บริการ, คำรับรอง, ทีมงาน, บทความ, ส่วน Call-to-Action หลายๆ ส่วนและส่วน Instagram เพื่อขายบริการและแนะนำธุรกิจของคุณ ธีมที่เร็วและเหมาะสมนี้ใช้งานง่าย ใช้งานได้บนอุปกรณ์เคลื่อนที่และมีการจัดอันดับในเครื่องมือค้นหา นอกจากนี้ยังเป็นเว็บไซต์ที่เข้ากันได้กับ WooCommerce, พร้อมแปลภาษา, สามารถใช้งาน RTL script และมีระบบสคีมาอย่างเพียงพอ เช็ครายละเอียดธีมได้ที่ https://blossomthemes.com/wordpress-themes/vedic-spa/, ดูตัวอย่างที่ https://blossomthemes.com/theme-demo/?theme=vedic-spa, เอกสารประกอบการใช้งานที่ https://docs.blossomthemes.com/vedic-spa/ และรับการสนับสนุนที่ https://blossomthemes.com/support-ticket/"
+
+#: functions.php:264
+msgid "Flush Local Fonts Cache"
+msgstr "ล้างแคชแบบฟอนต์ในเครื่อง"
+
+#: functions.php:250
+msgid "Flush Local Font Files"
+msgstr "ล้างไฟล์ฟอนต์ที่เก็บไว้ในเครื่อง"
+
+#: functions.php:248
+msgid "Click the button to reset the local fonts cache"
+msgstr "คลิกที่ปุ่มเพื่อรีเซ็ตแคชฟอนต์ที่เก็บไว้ในเครื่อง"
+
+#: functions.php:240
+msgid "Preloading Google fonts will speed up your website speed."
+msgstr "การโหลด Google Fonts ล่วงหน้าจะช่วยเพิ่มความเร็วของเว็บไซต์ของคุณ"
+
+#: functions.php:239
+msgid "Preload Local Fonts"
+msgstr "การโหลดฟอนต์ท้องถิ่นล่วงหน้า"
+
+#: functions.php:219
+msgid "Load Google Fonts Locally"
+msgstr "โหลดแบบ Google Fonts ที่ตั้งตามที่อยู่ของคุณเอง"
+
+#: functions.php:220
+msgid "Enable to load google fonts from your own server instead from google's CDN. This solves privacy concerns with Google's CDN and their sometimes less-than-transparent policies."
+msgstr "เปิดใช้งานในการโหลดฟอนต์ของ Google จากเซิร์ฟเวอร์ของคุณเองแทนการโหลดจาก CDN ของ Google นี้จะช่วยแก้ไขปัญหาเกี่ยวกับความเกี่ยวกับความเป็นส่วนตัวใน Google CDN และนโยบายที่ไม่โปร่งใสของพวกเขาบางครั้ง"
+
+#: functions.php:603
+msgid "go to top"
+msgstr "กลับไปด้านบนสุด"
+
+#: functions.php:476
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr "เปิดอยู่"
+
+#: functions.php:475
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr "เปิดอยู่"
+
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:474
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr "เปิดอยู่"
+
+#: functions.php:50
+msgid "Documentation Link: %1$sClick here.%2$s"
+msgstr "ลิงค์เอกสารคู่มือ: %1$sคลิกที่นี่ %2$s"
+
+#: functions.php:48
+msgid "Demo Link: %1$sClick here.%2$s"
+msgstr "ลิงค์การสาธิต: %1$sคลิกที่นี่ %2$s"
+
+#: functions.php:35
+msgid "Demo & Documentation"
+msgstr "การสาธิตและเอกสารประกอบ"
+
+#: functions.php:172
+msgid "Secondary font of the site."
+msgstr "แบบอักษรรองของเว็บไซต์"
+
+#: functions.php:171
+msgid "Secondary Font"
+msgstr "แบบอักษรรอง"
+
+#: functions.php:150
+msgid "Primary font of the site."
+msgstr "แบบอักษรหลักของเว็บไซต์"
+
+#: functions.php:149
+msgid "Primary Font"
+msgstr "แบบอักษรหลัก"
+
+#: functions.php:120
+msgid "Appearance Settings"
+msgstr "การตั้งค่าลักษณะที่ปรากฏ"
+
+#: functions.php:103
+msgid "Change the font size of your site title."
+msgstr "เปลี่ยนขนาดแบบอักษรของชื่อเว็บไซต์ของคุณ"
+
+#: functions.php:102
+msgid "Site Title Font Size"
+msgstr "ขนาดตัวหนังสือของหัวข้อเว็บไซต์"
+
+#: functions.php:80
+msgid "Site title and tagline font."
+msgstr "ชื่อเว็บไซต์และแบบอักษรของสโลแกน"
+
+#: functions.php:79
+msgid "Site Title Font"
+msgstr "แบบอักษรชื่อเว็บไซต์"
+
+#: functions.php:596
+msgid "https://wordpress.org/"
+msgstr "http://th.wordpress.org/"
+
+#: functions.php:194
+msgid "Font Size"
+msgstr "ขนาดตัวอักษร"
+
+#: functions.php:594
+msgid " Blossom Themes"
+msgstr " ธีมบลอสซั่ม (ฺBlossom Themes)"
+
+#: functions.php:596
+msgid " Powered by %s"
+msgstr " ขับเคลื่อนโดย%s"
+
+#: functions.php:593
+msgid " Vedic Spa | Developed By "
+msgstr " Vedic Spa | พัฒนาโดย "
+
+#: functions.php:430 functions.php:446
+msgid "View your shopping cart"
+msgstr "ดูตะกร้าสินค้าของคุณ"
+
+#: functions.php:329
+msgid "Enable to show Shopping cart in the header."
+msgstr "เปิดใช้งานในการแสดงตะกร้าสินค้าในส่วนหัว"
+
+#: functions.php:328
+msgid "Shopping Cart"
+msgstr "ตะกร้าสินค้า"
+
+#: functions.php:304
+msgid "This is the layout for header."
+msgstr "นี่คือเค้าโครงสำหรับส่วนหัว"
+
+#: functions.php:283 functions.php:303
+msgid "Header Layout"
+msgstr "เค้าโครงของส่วนหัว"
+
+#: functions.php:195
+msgid "Change the font size of your site."
+msgstr "เปลี่ยนขนาดตัวอักษรของเว็บไซต์ของคุณได้"
+
+#: functions.php:129
+msgid "Typography Settings"
+msgstr "การตั้งค่าตัวอักษร"
+
+#: functions.php:121
+msgid "Customize Color, Typography & Background Image"
+msgstr "ปรับแต่งสี ตัวอักษรและภาพพื้นหลังได้ตามต้องการ"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://blossomthemes.com/"
+msgstr "https://blossomthemes.com/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Blossom Themes"
+msgstr "ธีมบลอสซั่ม (Blossom Themes)"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://blossomthemes.com/wordpress-themes/vedic-spa/"
+msgstr "https://blossomthemes.com/wordpress-themes/vedic-spa/"

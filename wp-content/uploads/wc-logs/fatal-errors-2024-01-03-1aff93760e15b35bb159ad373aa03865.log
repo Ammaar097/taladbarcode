@@ -1,0 +1,4 @@
+2024-01-03T01:56:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded ใน C:\xampp\htdocs\taladbarcodewordpress\wp-includes\functions.php บนบรรทัดที่ 6805
+
+2024-01-03T01:56:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded ใน C:\xampp\htdocs\taladbarcodewordpress\wp-includes\Requests\src\Transport\Curl.php บนบรรทัดที่ 205
+
